@@ -153,7 +153,7 @@ if(selected == 'Parkinsons Prediction'):
     col1, col2, col3, col4 = st.columns(4)
         
     with col1:
-        fo = st.text_input('MDVP:Fo(Hz)')
+        fo = st.text_input('MDVP Fo(Hz)')
             
     with col2:
         fhi = st.text_input('MDVP:Fhi(Hz)')
